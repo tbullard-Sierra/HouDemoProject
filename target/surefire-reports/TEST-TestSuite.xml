@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="73.598" tests="6" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\m.nath@sierradigitalinc.com\eclipse-workspace\HouPerPro"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\m.nath@sierradigitalinc.com\eclipse-workspace\HouPerPro"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MNATH@~1.COM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.8.8-bin\apache-maven-3.8.8\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_202\bin;D:\apache-maven-3.8.8-bin\apache-maven-3.8.8\bin;C:\Users\m.nath@sierradigitalinc.com\Downloads\allure-commandline-2.9.0\allure-2.9.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\m.nath@sierradigitalinc.com\scoop\shims;C:\Users\m.nath@sierradigitalinc.com\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.8.8-bin\apache-maven-3.8.8/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.8.8-bin\apache-maven-3.8.8\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\m.nath@sierradigitalinc.com"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="MahendraNath"/>
+    <property name="java.class.path" value="D:\apache-maven-3.8.8-bin\apache-maven-3.8.8\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.8.8-bin\apache-maven-3.8.8"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifyRegisterLinkTest" classname="com.qa.houperpro.tests.RegisterPageTest" time="9.505">
+    <failure message="Header values not matched expected [Submit a New ] but found [Submit a New Record]" type="java.lang.AssertionError">java.lang.AssertionError: Header values not matched expected [Submit a New ] but found [Submit a New Record]
+	at com.qa.houperpro.tests.RegisterPageTest.verifyRegisterLinkTest(RegisterPageTest.java:22)
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
+...
+
+Test Suite started!
+Browser name: edge
+verifyRegisterLinkTest started!
+Register page header : Submit a New Record
+Header is: Submit a New Record
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting Microsoft Edge WebDriver 109.0.1518.78 (4e4b32c3816309813328e94787b814590ac1116d) on port 58528
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jun 20, 2023 2:48:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jun 20, 2023 2:48:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
+Jun 20, 2023 2:48:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 109.
+Jun 20, 2023 2:48:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyEmailAddressFieldTest" classname="com.qa.houperpro.tests.HomePageTest" time="3.104"/>
+  <testcase name="verifyPasswordFieldTest" classname="com.qa.houperpro.tests.HomePageTest" time="3.104"/>
+  <testcase name="verifyLoginToHouPerSiteTest" classname="com.qa.houperpro.tests.LoginPage_HouPerTest" time="1.514">
+    <failure message="expected [https://houstontx-tst.rhythmlabs.infor.com/my-dashboard] but found [https://houstontx-tst.rhythmlabs.infor.com/]" type="java.lang.AssertionError">java.lang.AssertionError: expected [https://houstontx-tst.rhythmlabs.infor.com/my-dashboard] but found [https://houstontx-tst.rhythmlabs.infor.com/]
+	at com.qa.houperpro.tests.LoginPage_HouPerTest.verifyLoginToHouPerSiteTest(LoginPage_HouPerTest.java:33)
+</failure>
+    <system-out><![CDATA[verifyPasswordFieldTest passed!
+Test Suite is ending!
+Test Suite started!
+Browser name: edge
+verifyLoginToHouPerSiteTest started!
+Current URL: https://houstontx-tst.rhythmlabs.infor.com/
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 109.0.1518.78 (4e4b32c3816309813328e94787b814590ac1116d) on port 56933
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jun 20, 2023 2:49:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jun 20, 2023 2:49:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
+Jun 20, 2023 2:49:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 109.
+Jun 20, 2023 2:49:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginToHouPerSiteTest" classname="com.qa.houperpro.tests.LoginPage_HouPerTest" time="0.128">
+    <failure message="expected [https://houstontx-tst.rhythmlabs.infor.com/my-dashboard] but found [https://houstontx-tst.rhythmlabs.infor.com/]" type="java.lang.AssertionError">java.lang.AssertionError: expected [https://houstontx-tst.rhythmlabs.infor.com/my-dashboard] but found [https://houstontx-tst.rhythmlabs.infor.com/]
+	at com.qa.houperpro.tests.LoginPage_HouPerTest.verifyLoginToHouPerSiteTest(LoginPage_HouPerTest.java:33)
+</failure>
+    <system-out><![CDATA[verifyLoginToHouPerSiteTest failed!
+Browser name: edge
+verifyLoginToHouPerSiteTest started!
+Current URL: https://houstontx-tst.rhythmlabs.infor.com/
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 109.0.1518.78 (4e4b32c3816309813328e94787b814590ac1116d) on port 63889
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jun 20, 2023 2:49:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jun 20, 2023 2:49:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
+Jun 20, 2023 2:49:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 109.
+Jun 20, 2023 2:49:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginToHouPerSiteTest" classname="com.qa.houperpro.tests.LoginPage_HouPerTest" time="0.144">
+    <failure message="expected [https://houstontx-tst.rhythmlabs.infor.com/my-dashboard] but found [https://houstontx-tst.rhythmlabs.infor.com/]" type="java.lang.AssertionError">java.lang.AssertionError: expected [https://houstontx-tst.rhythmlabs.infor.com/my-dashboard] but found [https://houstontx-tst.rhythmlabs.infor.com/]
+	at com.qa.houperpro.tests.LoginPage_HouPerTest.verifyLoginToHouPerSiteTest(LoginPage_HouPerTest.java:33)
+</failure>
+    <system-out><![CDATA[verifyLoginToHouPerSiteTest failed!
+Browser name: edge
+verifyLoginToHouPerSiteTest started!
+Current URL: https://houstontx-tst.rhythmlabs.infor.com/
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 109.0.1518.78 (4e4b32c3816309813328e94787b814590ac1116d) on port 50809
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jun 20, 2023 2:49:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jun 20, 2023 2:49:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
+Jun 20, 2023 2:49:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 109.
+Jun 20, 2023 2:49:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

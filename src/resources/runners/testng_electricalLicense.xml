@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HouPerProject suite" verbose="2">
+	<listeners>
+		<listener class-name="com.qa.houpermitproject.listeners.ExtentReportListener" />
+		<listener class-name="com.qa.houpermitproject.listeners.ScreenshotListener" />
+	</listeners>
+	
+	<test name="Login Test">
+		<classes>
+			<class name="com.qa.houpermitproject.tests.LoginPage_HouPerTest" />
+		</classes>
+	</test>
+<!--	<test name="Electrical License Test">
+		<classes>
+			<class name="com.qa.houpermitproject.tests.ElectricalLicenseTest" />
+		</classes>
+	</test>-->
+	
+	
+	
+</suite>

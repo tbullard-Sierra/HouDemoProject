@@ -1,0 +1,9 @@
+com\ohrm\qa\tests\GridSetUp.class
+com\qa\houperpro\tests\LoginPage_HouPerTest.class
+com\qa\houperpro\tests\RoofingPermit.class
+com\qa\houperpro\tests\RegisterPageTest.class
+com\ohrm\qa\tests\Login.class
+com\qa\houperpro\tests\HomePageTest.class
+com\qa\houperpro\tests\CommertialPermit.class
+com\ohrm\qa\tests\LaunchSafari.class
+com\qa\houperpro\tests\TestRunner.class
