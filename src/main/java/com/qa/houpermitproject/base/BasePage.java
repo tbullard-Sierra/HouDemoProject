@@ -122,7 +122,7 @@ public class BasePage {
 	
 	public Properties initialize_Properties() {
 		
-		String filePath = "C:\\Users\\m.nath@sierradigitalinc.com\\eclipse-workspace\\HouPerPro\\src\\main\\java\\com\\qa\\houpermitproject\\config\\qa_config.properties";
+		String filePath = ".\\src\\main\\java\\com\\qa\\houpermitproject\\config\\qa_config.properties";
 		prop = new Properties();
 		
 //		String envvironment = System.getProperty("env");
