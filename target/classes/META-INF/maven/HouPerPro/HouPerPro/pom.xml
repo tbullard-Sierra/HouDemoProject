@@ -114,7 +114,7 @@
 						<reuseForks>true</reuseForks>
 						<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 						<suiteXmlFiles>
-							<suiteXmlFile>src\resources\runners\testng_smoke.xml</suiteXmlFile>
+							<suiteXmlFile>src\resources\runners\testng_electricalLicense.xml</suiteXmlFile>
 							
 						</suiteXmlFiles>
 						<argLine>
