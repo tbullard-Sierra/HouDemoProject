@@ -1,0 +1,67 @@
+14:32:27.381 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+14:32:27.384 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.2, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=wPimmD5wJXnunXeRtCp4, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=mahendrakotike_URxqKJ, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.3]
+14:32:27.388 [Worker-54: Launching mavenrun-8b70ae36-5541-47a9-bf41-fd37163034c9] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:35:22.976 [Worker-55: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:35:22.978 [Worker-55: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:35:22.981 [Worker-55: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:35:23.125 [Worker-55: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:35:47.200 [Worker-43: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:35:47.202 [Worker-43: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:35:47.361 [Worker-43: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:37:01.402 [Worker-43: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:37:01.405 [Worker-43: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:37:01.515 [Worker-43: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:38:53.018 [Worker-58: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:38:53.020 [Worker-58: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:38:53.128 [Worker-58: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:39:16.413 [Worker-59: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:39:16.421 [Worker-59: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:39:16.521 [Worker-59: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:41:30.578 [Worker-59: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:41:30.580 [Worker-59: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:41:30.710 [Worker-59: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:41:46.873 [Worker-59: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:41:46.880 [Worker-59: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:41:46.994 [Worker-59: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:47:48.886 [Worker-61: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:47:48.888 [Worker-61: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:47:49.029 [Worker-61: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:48:55.335 [Worker-63: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:48:55.336 [Worker-63: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:48:55.443 [Worker-63: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:52:22.568 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:52:22.568 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:52:22.569 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/HouPermitProject
+14:52:22.570 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:52:22.570 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:52:22.572 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/HouPermitProject
+14:53:44.974 [Worker-61: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+14:53:44.978 [Worker-61: Launching IPSLoginTest] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 16
+ -javaagent:'C:\Users\m.nath@sierradigitalinc.com\.m2\repository\com\browserstack\browserstack-java-sdk\1.8.5\browserstack-java-sdk-1.8.5.jar'
+                ^
+14:53:45.069 [Worker-61: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:55:50.736 [Worker-66: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+14:55:50.832 [Worker-66: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:56:11.735 [Worker-63: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+14:56:11.873 [Worker-63: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:56:22.512 [Worker-63: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+14:56:22.628 [Worker-63: Launching IPSLoginTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+14:56:49.933 [Framework stop - Equinox Container: 61794ab0-f9ff-4970-9686-05358af77cc8] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...

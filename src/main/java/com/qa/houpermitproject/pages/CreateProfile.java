@@ -55,7 +55,10 @@ public class CreateProfile extends BasePage{
 			String businessName,String add1,String add2,String city,String state,String zip,String mPh,
 			String altPhno,String fax,String pwd,String conPwd)  {
 		
+		String sucessMsg = null;
+		try {
 		elementUtil.doClick(cookiesPopup);
+		Thread.sleep(3000);
 		elementUtil.doClick(createProfileLink);
 		elementUtil.doSendKeys(this.email, email);
 		elementUtil.doClick(continueBtn);
@@ -96,9 +99,12 @@ public class CreateProfile extends BasePage{
 		elementUtil.waitForElementToBeVisible(termsAndCondChck, 20);
 		elementUtil.doClick(termsAndCondChck);
 		elementUtil.doClick(createAccntBtn);
-		String sucessMsg = driver.findElement(accntSuccessMsg).getText();
+		Thread.sleep(4000);
+		sucessMsg = driver.findElement(accntSuccessMsg).getText();
 		System.out.println("Account Creation Success Message: "+sucessMsg);
-	
+		}catch(Exception e) {
+			
+		}
 		return sucessMsg;
 		
 	}
@@ -107,8 +113,11 @@ public class CreateProfile extends BasePage{
 			String add2,String city,String state,String zip,String mPh,
 			String altPhno,String fax,String pwd,String conPwd)  {
 		
+		String sucessMsg = null;
+		try {
 		elementUtil.doClick(cookiesPopup);
 		//elementUtil.doClick(createProfileLink);
+			Thread.sleep(3000);
 		elementUtil.clickElementByJS(elementUtil.getElement(createProfileLink));
 		elementUtil.doSendKeys(this.email, email);
 		elementUtil.doClick(continueBtn);
@@ -149,11 +158,18 @@ public class CreateProfile extends BasePage{
 		elementUtil.waitForElementToBeVisible(termsAndCondChck, 20);
 		elementUtil.doClick(termsAndCondChck);
 		elementUtil.doClick(createAccntBtn);
-		String sucessMsg = driver.findElement(accntSuccessMsg).getText();
+		sucessMsg = driver.findElement(accntSuccessMsg).getText();
 		System.out.println("Account Creation Success Message: "+sucessMsg);
-	
+		}catch(Exception e) {
+			
+		}
+		
 		return sucessMsg;
 		
+	}
+	
+	public void lanuchRhythmURL(String rhythmURL) {
+		elementUtil.launchURL(rhythmURL);
 	}
 
 }

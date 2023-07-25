@@ -5,16 +5,16 @@
       <![CDATA[User Name:m.nath@sierradigitalinc.comand Password :Sierra@2023]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-30T14:16:49 CDT" name="HouPerProject suite" finished-at="2023-06-30T14:17:06 CDT" duration-ms="16647">
+  <suite started-at="2023-07-25T10:28:16 CDT" name="HouPerProject suite" finished-at="2023-07-25T10:28:30 CDT" duration-ms="14183">
     <groups>
     </groups>
-    <test started-at="2023-06-30T14:16:49 CDT" name="Login Test" finished-at="2023-06-30T14:17:06 CDT" duration-ms="16647">
+    <test started-at="2023-07-25T10:28:16 CDT" name="Login Test" finished-at="2023-07-25T10:28:30 CDT" duration-ms="14183">
       <class name="com.qa.houpermitproject.tests.LoginPage_HouPerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.houpermitproject.tests.LoginPage_HouPerTest@1b5a1d85]" started-at="2023-06-30T14:16:50 CDT" name="setUp" finished-at="2023-06-30T14:16:57 CDT" duration-ms="6838" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.houpermitproject.tests.LoginPage_HouPerTest@5adb0db3]" started-at="2023-07-25T10:28:17 CDT" name="setUp" finished-at="2023-07-25T10:28:19 CDT" duration-ms="1940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginToHouPerSiteTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.houpermitproject.tests.LoginPage_HouPerTest@1b5a1d85]" started-at="2023-06-30T14:16:57 CDT" name="verifyLoginToHouPerSiteTest" data-provider="getTestData" finished-at="2023-06-30T14:17:03 CDT" duration-ms="6389" status="PASS">
+        <test-method signature="verifyLoginToHouPerSiteTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.houpermitproject.tests.LoginPage_HouPerTest@5adb0db3]" started-at="2023-07-25T10:28:19 CDT" name="verifyLoginToHouPerSiteTest" data-provider="getTestData" finished-at="2023-07-25T10:28:28 CDT" duration-ms="9648" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginToHouPerSiteTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.houpermitproject.tests.LoginPage_HouPerTest@1b5a1d85]" started-at="2023-06-30T14:17:03 CDT" name="tearDown" finished-at="2023-06-30T14:17:06 CDT" duration-ms="2297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.houpermitproject.tests.LoginPage_HouPerTest@5adb0db3]" started-at="2023-07-25T10:28:28 CDT" name="tearDown" finished-at="2023-07-25T10:28:30 CDT" duration-ms="2196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

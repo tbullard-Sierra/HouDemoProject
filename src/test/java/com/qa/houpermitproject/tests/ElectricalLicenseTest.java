@@ -2,7 +2,6 @@ package com.qa.houpermitproject.tests;
 
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -16,8 +15,9 @@ public class ElectricalLicenseTest extends BaseTest {
 	@BeforeMethod
 	public void loginPermitSite() throws InterruptedException {
 		//
-		String accntText = loginPageHouPer.doLoginHouPer(prop.getProperty("username").trim(),prop.getProperty("password").trim());
-		Assert.assertEquals(accntText, "My Account");
+		String accntText = loginPageHouPer.doLoginHouPer(prop.getProperty("cohUrl").trim(),
+				prop.getProperty("username").trim(),prop.getProperty("password").trim());
+		Assert.assertEquals(accntText, Constants.DASHBOARD_TEXT);
 	}
 	
 	@DataProvider

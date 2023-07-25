@@ -1,0 +1,348 @@
+<html>
+<head>
+<title>TestNG:  Rythm - Apply Mechanical Permit Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Rythm - Apply Mechanical Permit Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 19 09:35:45 CDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>909 seconds (909174 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application3, HVAC Work Only, Commercial - School, Test Application3, Property Owner, Liam Neeson, Liam, Liam, Liam, Liam, LiamNeeson, 1700.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-148815426" onClick='toggleBox("Output-148815426", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-148815426" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-148815426">
+<a href='C:\Users\m.nath@sierradigitalinc.com\eclipse-workspace\HouPerPro\target\surefire-reports\failure_screenshots\applyForMechaniclPermit_19_07_2023_09_38_02.png'> <img src='C:\Users\m.nath@sierradigitalinc.com\eclipse-workspace\HouPerPro\target\surefire-reports\failure_screenshots\applyForMechaniclPermit_19_07_2023_09_38_02.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.assertNotNull(Assert.java:1484)
+	at org.testng.Assert.assertNotNull(Assert.java:1468)
+	at com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit(Rythm_MechanicalPermitSubmitTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace148815426", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace148815426'><pre>java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.assertNotNull(Assert.java:1484)
+	at org.testng.Assert.assertNotNull(Assert.java:1468)
+	at com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit(Rythm_MechanicalPermitSubmitTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application2, HVAC Work Only, Commercial - Office , Test Application2, Property Owner, Matthew McConaughey, Matt, Matt, Matt, Matt, MatthewMcConaughey, 1200.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-955979034" onClick='toggleBox("Output-955979034", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-955979034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-955979034">
+Confirmation Number: MECS2894<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application11, HVAC Work Only, Commercial- Warehouse, Test Application11, Property Owner, Robert Downey, Robert, Robert, Robert, Robert, RobertDowney, 2106.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-1004931143" onClick='toggleBox("Output-1004931143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1004931143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1004931143">
+Confirmation Number: MECS2902<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application9, HVAC Work Only, Commercial - Retail, Test Application9, Property Owner, Johnny Deep, Johnny, Johnny, Johnny, Johnny, JohnnyDeep, 2104.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-1304803463" onClick='toggleBox("Output-1304803463", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1304803463" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1304803463">
+Confirmation Number: MECS2900<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application10, HVAC Work Only, Commercial - Swimming Pool, Test Application10, Property Owner, Chris Hemsworth, Chris, Chris, Chris, Chris, ChrisHemsworth, 2105.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-464773456" onClick='toggleBox("Output-464773456", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-464773456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-464773456">
+Confirmation Number: MECS2901<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application16, HVAC Work Only, Residential - Swimming Pool, Test Application16, Property Owner, Will Smith, Will, Will, Will, Will, WillSmith, 2111.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-573609427" onClick='toggleBox("Output-573609427", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-573609427" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-573609427">
+Confirmation Number: MECS2907<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application7, HVAC Work Only, Commercial - Food Truck, Test Application7, Property Owner, Tom Cruise, Tom, Tom, Tom, Tom, TomCruise, 2102.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-1209166359" onClick='toggleBox("Output-1209166359", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1209166359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1209166359">
+Confirmation Number: MECS2898<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application15, HVAC Work Only, Residential - Storage - Shed, Test Application15, Property Owner, Morgan Freeman, Morgan, Morgan, Morgan, Morgan, MorganFreeman, 2110.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-402497467" onClick='toggleBox("Output-402497467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-402497467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402497467">
+Confirmation Number: MECS2906<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application12, HVAC Work Only, Residential - Carport , Test Application12, Property Owner, Chris Evans, Evans, Evans, Evans, Evans, ChrisEvans, 2107.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-143649192" onClick='toggleBox("Output-143649192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-143649192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-143649192">
+Confirmation Number: MECS2903<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application8, HVAC Work Only, Commercial - Parking Garage, Test Application8, Property Owner, Harrison Ford, Harry, Harry, Harry, Harry, HarrisonFord, 2103.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-1558857633" onClick='toggleBox("Output-1558857633", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1558857633" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1558857633">
+Confirmation Number: MECS2899<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application5, HVAC Work Only, Residential - Single Residence , Test Application5, Property Owner, Mel Gibson, Mel, Mel, Mel, Mel, Mel Gibson, 2100.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-2069664786" onClick='toggleBox("Output-2069664786", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2069664786" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2069664786">
+Confirmation Number: MECS2896<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application14, HVAC Work Only, Residential - Garage, Test Application14, Property Owner, Tom Hanks, Tom, Tom, Tom, Tom, TomHanks, 2109.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-977595349" onClick='toggleBox("Output-977595349", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-977595349" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-977595349">
+Confirmation Number: MECS2905<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application13, HVAC Work Only, Residential - Fence, Test Application13, Property Owner, Hugh Jackman, Hugh, Hugh, Hugh, Hugh, HughJackman, 2108.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-1699743906" onClick='toggleBox("Output-1699743906", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1699743906" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1699743906">
+Confirmation Number: MECS2904<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application6, HVAC Work Only, Commercial - Fence, Test Application6, Property Owner, Nicolas Cage, Nick, Nick, Nick, Nick, NicolasCage, 2101.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-2102123480" onClick='toggleBox("Output-2102123480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2102123480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2102123480">
+Confirmation Number: MECS2897<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application4, HVAC Work Only, Residential - Duplex , Test Application4, Property Owner, Clint Eastwood, Clint, Clint, Clint, Clint, ClintEastwood, 1900.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-1925645553" onClick='toggleBox("Output-1925645553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1925645553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1925645553">
+Confirmation Number: MECS2895<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+<tr>
+<td title='com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest.applyForMechaniclPermit()'><b>applyForMechaniclPermit</b><br>Test class: com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest<br>Parameters: Test Application1, HVAC Work Only, Commercial - Apartments, Test Application1, Property Owner, Brad Pitt, Brad, Brad, Brad, Brad, Brad Pitt, 1500.0, 109 W 10TH ST HOUSTON TX 77008<br/>
+<a href="#Output-974559308" onClick='toggleBox("Output-974559308", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-974559308" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-974559308">
+Confirmation Number: MECS2893<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>com.qa.houpermitproject.tests.Rythm_MechanicalPermitSubmitTest@340b9973</td></tr>
+</table><p>
+</body>
+</html>

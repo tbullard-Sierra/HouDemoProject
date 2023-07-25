@@ -83,10 +83,10 @@ public class BasePage {
 //		
 //		return driver;
 		
-		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		getDriver().manage().window().maximize();
 		getDriver().manage().deleteAllCookies();
-		getDriver().get(prop.getProperty("cohUrl").trim());
+		//getDriver().get(prop.getProperty("cohUrl").trim());
 		//getDriver().get(prop.getProperty("url").trim());
 		
 		return getDriver();

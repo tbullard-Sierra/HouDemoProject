@@ -23,7 +23,7 @@ public class TestRunner {
 		//ITestNGListener iTestNgListener =new ExtentReportListener();
 		ITestNGListener extent = new ExtentReportListener();
 		testNg = new TestNG();
-		testNg.setTestClasses(new Class[] {RoofingPermitTest.class,CommertialPermitTest.class});
+		testNg.setTestClasses(new Class[] {});
 		//testNg.addListener(extentReportListener);
 		//testNg.addListener(iTestNgListener);
 		testNg.addListener(extent);

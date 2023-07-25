@@ -25,8 +25,19 @@ public class ElementUtil {
 		this.driver = driver;
 	}
 
+	
+	public void launchURL(String url) {
+		driver.get(url);
+	}
+	
+	public void doClear(By locator) {
+		getElement(locator).clear();
+	}
+	
 	public WebElement getElement(By locator) {
+		
 		WebElement element = driver.findElement(locator);
+		
 		if(Boolean.parseBoolean(BasePage.flashElement)) flash(element);
 		return element;
 	}
@@ -56,11 +67,31 @@ public class ElementUtil {
 		return getElement(locator).getText();
 	}
 	
+	public String getText(By locator,String value) {
+		//return getElement(locator).getAttribute(value);
+		return driver.findElement(locator).getAttribute(value);
+	}
+	
 public boolean isDisplayed(By locator) {
 		
 		return getElement(locator).isDisplayed();
 	}
+
+public void doSwitchToFrame(String name) {
+	driver.switchTo().frame(name);
+}
+
+public void switchToDefaultContent() {
+	driver.switchTo().defaultContent();
+}
+
+public void switchToParentFrame() {
+	driver.switchTo().parentFrame();
+}
 	
+public void switchToFrameByWebElement(By locator) {
+	driver.switchTo().frame(getElement(locator));
+}
 public void selectValueFromDropdown(By locator, String value) {
 		
 		List<WebElement> countryList = driver.findElements(locator);
@@ -87,6 +118,13 @@ public void selectValueFromDropdown(By locator, String value) {
 	
 	//*******************************Java Script Utils*******************************
 	
+public String getTextByJS(WebElement element) {
+	
+	JavascriptExecutor js = ((JavascriptExecutor) driver);
+	return (String) js.executeScript("return arguments[0].value;", element);
+}
+
+
 	public void clickElementByJS(WebElement element) {
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
 		js.executeScript("arguments[0].click();", element);
@@ -225,6 +263,8 @@ public void selectValueFromDropdown(By locator, String value) {
 		}
 	
 	
+//**********************************************App Util*************************************
+		
 	
 	
 	

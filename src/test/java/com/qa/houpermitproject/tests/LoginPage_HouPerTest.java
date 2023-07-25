@@ -24,7 +24,7 @@ public class LoginPage_HouPerTest extends BaseTest{
 	public void verifyLoginToHouPerSiteTest(String uName, String pwd) throws InterruptedException {
 		
 		log.info("Entering Username and Password "+uName + "and" +pwd);
-		loginPageHouPer.doLoginHouPer(uName, pwd);
+		loginPageHouPer.doLoginHouPer(prop.getProperty("cohUrl").trim(),uName, pwd);
 		Reporter.log("User Name:"+uName +"and Password :"+pwd);
 		
 	}

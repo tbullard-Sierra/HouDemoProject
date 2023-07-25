@@ -12,11 +12,9 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import com.qa.houpermitproject.constants.Constants;
-
 public class ExcelUtil {
 	
-	public static String filePath = Constants.ROOFING_PERMIT_TEST_DATA_SHEET_PATH;
+	public static String filePath = null;
 	public static Workbook book;
 	public static Sheet sheet;
 	
@@ -101,13 +99,13 @@ public class ExcelUtil {
 	}
 	
 	
-	public static void updateTestResult(int row, String result) throws IOException {
+	public static void updateTestResult(int row, String result,String sheetName) throws IOException {
         FileInputStream file = new FileInputStream(filePath);
         Workbook workbook;
 		try {
 			workbook = WorkbookFactory.create(file);
 			
-			 Sheet sheet = workbook.getSheet(Constants.ROOFING_PERMIT_TEST_DATA_SHEET_NAME);
+			 Sheet sheet = workbook.getSheet(sheetName);
 
 		        Row rowData = sheet.getRow(row);
 		        Cell cell = rowData.createCell(rowData.getLastCellNum());

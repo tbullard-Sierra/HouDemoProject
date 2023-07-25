@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HouPermitProject suite" verbose="2">
+	<listeners>
+		<listener class-name="com.qa.houpermitproject.listeners.ExtentReportListener" />
+		<listener class-name="com.qa.houpermitproject.listeners.ScreenshotListener" />
+	</listeners>
+	
+	<test name="Request For Reschedule Inspection">
+		<classes>
+			<class name="com.qa.houpermitproject.tests.RequestForRescheduleInspectionTest" />
+		</classes>
+	</test>
+	
+</suite>

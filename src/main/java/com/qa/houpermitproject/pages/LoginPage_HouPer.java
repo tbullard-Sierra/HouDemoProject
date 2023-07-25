@@ -23,17 +23,28 @@ public class LoginPage_HouPer extends BasePage {
 	By myAccount = By.xpath("//button[@id='util-item-myaccount']");
 	By cookiesBtn = By.xpath("//div[@class='cc-compliance']//a");
 	
-	public String doLoginHouPer(String email, String password) throws InterruptedException {
+	public String doLoginHouPer(String url,String email, String password)  {
 
-		if(elementUtil.isDisplayed(cookiesBtn)) {
-			elementUtil.doClick(cookiesBtn);
+		String myAcctText = null ;
+		
+		
+		try {
+			Thread.sleep(2000);
+			elementUtil.launchURL(url);
+			if(elementUtil.isDisplayed(cookiesBtn)) {
+				elementUtil.doClick(cookiesBtn);
+			}
+			Thread.sleep(3000);
+			elementUtil.waitForElementToBeVisible(this.email, 50);
+			elementUtil.doSendKeys(this.email, email);
+			elementUtil.doSendKeys(this.password, password);
+			elementUtil.clickElementByJS(elementUtil.getElement(loginBtn));
+			Thread.sleep(2000);
+			myAcctText = elementUtil.doGetText(myAccount);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
 		}
-		Thread.sleep(3000);
-		elementUtil.doSendKeys(this.email, email);
-		elementUtil.doSendKeys(this.password, password);
-		elementUtil.clickElementByJS(elementUtil.getElement(loginBtn));
-		//Thread.sleep(1000);
-		String myAcctText = elementUtil.doGetText(myAccount);
+	
 
 		return myAcctText;
 	}

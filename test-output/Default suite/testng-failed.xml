@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.houpermitproject.tests.CreateProfileTest">
+      <class name="com.qa.houpermitproject.tests.Rhythm_ApplyMechPerWithBEorBRlicenseTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="createIndividualProfile" invocation-numbers="0"/>
+          <include name="applyMechPerWithARorAElicneseTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.qa.houpermitproject.tests.CreateProfileTest -->
+      </class> <!-- com.qa.houpermitproject.tests.Rhythm_ApplyMechPerWithBEorBRlicenseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
